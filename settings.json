@@ -1,0 +1,90 @@
+{
+    "editor.tokenColorCustomizations": {
+        "strings": {
+            "foreground": "#d8cc72",
+            "fontStyle": "italic",
+        },
+        // "variables": "#FF0000",
+        "keywords": {
+            "foreground": "#729fcf",
+        },
+        "textMateRules": [
+            {
+                "scope": "variable.other.enummember",
+                "settings": {
+                    "foreground": "#75507B",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor",
+                "settings": {
+                    "foreground": "#3394a2"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#904f4f"
+                }
+            },
+            {
+                "scope": "entity.name.namespace",
+                "settings": {
+                    "foreground": "#b88940",
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type",
+                ],
+                "settings": {
+                    "foreground": "#b88940"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#a6aa89"
+                }
+            },
+            // features below are not wokring
+            {
+                "scope": "variable.other.global",
+                "settings": {
+                    "foreground": "#520606"
+                }
+            },
+            {
+                "scope": "variable.other.local",
+                "settings": {
+                    "foreground": "#FFFFFF"
+                }
+            },
+            {
+                "scope": "keyword.operator.new",
+                "settings": {
+                    "foreground": "#395a1d"
+                }
+            },
+            {
+                "scope": "entity.name.function.operator.member",
+                "settings": {
+                    "foreground": "#62b840"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.member.static",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+        ]
+    },
+    "C_Cpp.enhancedColorization": "Enabled",
+    "workbench.colorTheme": "Default Dark+",
+    "C_Cpp.loggingLevel": "Debug",
+}

@@ -1,0 +1,19 @@
+{
+    "extensions": {
+        "recommendations": [
+            "llvm-vs-code-extensions.vscode-clangd", 
+        ]
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "clangd.arguments": [
+            "--log=verbose", 
+        ], 
+        "clangd.semanticHighlighting": true, 
+        "C_Cpp.intelliSenseEngine": "Disabled", 
+    }
+}
